@@ -1,19 +1,19 @@
-import React from 'react'
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <header>
-        <h1> Vinoteca del Chubito </h1>
-            
+        <Link to="/">
+          <h1> Vinoteca del McDraz</h1>
+        </Link>
             <nav>
-                
                 <ul>
-                    <li>Cervezas</li>
-                    <li>Destilados</li>
-                    <li>Whisky</li>
-                    <li>Ron</li>
+                    <li> <NavLink to="/categoria/1"> Cervezas </NavLink> </li>
+                    <li><NavLink to="/categoria/2"> Destilados </NavLink></li>
+                    <li><NavLink to="/categoria/3">  Whisky </NavLink></li>
+                    <li><NavLink to="/categoria/4"> Ron </NavLink></li>
                 </ul>
             </nav>
             <CartWidget/>
