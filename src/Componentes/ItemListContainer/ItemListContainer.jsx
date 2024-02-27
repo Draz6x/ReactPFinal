@@ -20,7 +20,6 @@ useEffect (()=>{
       
     } ,[idCategoria])
 
-
   return (
     <div>
     <h2>Mis Productos</h2>

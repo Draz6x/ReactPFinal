@@ -13,7 +13,7 @@ const Navbar = () => {
                     <li> <NavLink to="/categoria/1"> Cervezas </NavLink> </li>
                     <li><NavLink to="/categoria/2"> Destilados </NavLink></li>
                     <li><NavLink to="/categoria/3">  Whisky </NavLink></li>
-                    <li><NavLink to="/categoria/4"> Ron </NavLink></li>
+                    <li><NavLink to="/categoria/4"> Accesorios</NavLink></li>
                 </ul>
             </nav>
             <CartWidget/>
