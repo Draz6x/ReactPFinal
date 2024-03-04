@@ -1,9 +1,10 @@
 header{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    font-family:'Times New Roman', Times, serif
+    align-items:center;
+    justify-content: center;
+    border-bottom: 10px solid rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(215, 215, 215);
 }
 h1 {
     font-size: 60px;

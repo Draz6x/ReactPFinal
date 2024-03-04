@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <header>
         <Link to="/">
+        <img className='imgCarrito' src="../img/BL.jpg" alt="Carrito" />
           <h1> Vinoteca La Fulminante</h1>
           <h3>"de esas que pierdes trabajo y familia"</h3>
         </Link>
