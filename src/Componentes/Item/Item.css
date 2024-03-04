@@ -1,6 +1,6 @@
 .cardProducto {
-    background-color: rgb(166, 207, 2);
-    border-radius: 10px;
+    background-color: rgb(188, 122, 122);
+    border-radius: 20px;
     width: 15rem;
     padding: 1rem;
     margin: 1rem;
@@ -10,4 +10,8 @@
 }
 .cardProducto img {
     width: 150px;
+}
+img{
+    width: 50vw;
+    border-radius: 40%;
 }

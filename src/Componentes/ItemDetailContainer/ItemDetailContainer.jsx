@@ -12,7 +12,7 @@ const ItemDetailContainer = () => {
         getUnProducto(idItem)
            .then(res => setProducto(res)) 
     }, [idItem]) 
-    
+
         return (
     <div>
       <ItemDetail {...producto} />
