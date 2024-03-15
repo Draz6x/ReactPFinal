@@ -12,11 +12,11 @@ const Navbar = () => {
         </Link>
             <nav>
                 <ul>
-                    <li> <NavLink to="/categoria/1"><button> Cerveza </button></NavLink> </li>
-                    <li><NavLink to="/categoria/2"> <button> Ron </button></NavLink></li>
-                    <li><NavLink to="/categoria/3"> <button> Whisky </button></NavLink></li>
-                    <li><NavLink to="/categoria/4"> <button> Vinos </button></NavLink></li>
-                    <li><NavLink to="/categoria/5"> <button> Accesorios </button></NavLink></li>
+                    <li> <NavLink to="/categoria/1"> Cervezas </NavLink> </li>
+                    <li><NavLink to="/categoria/2"> Ron </NavLink></li>
+                    <li><NavLink to="/categoria/3"> Whisky </NavLink></li>
+                    <li><NavLink to="/categoria/4"> Vinos </NavLink></li>
+                    <li><NavLink to="/categoria/5"> Accesorios</NavLink></li>
                 </ul>
             </nav>
             <CartWidget/>
